@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  
 }
 .btn-primary {
   height: 64px;
@@ -12,7 +13,7 @@
   font-size: 20px;
   line-height: 27px;
   border: 0;
-  padding: 18px 35px;
+  padding: 15px 20px;
   color: #fff;
 }
 .txt-orange {
@@ -155,6 +156,28 @@ section {
 .resume-dw-btn {
     margin-top: 50px;
     text-align: center;
+}
+/* contact start */
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #fff8f3;
+    padding: 130px 200px;
+}
+.contact .section-title {
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"] textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+
+}
+.contact-desc {
+    margin-bottom: 30px;
+}
+.contact a {
+    padding: 10px;
 }
 /* section ul {
     list-style: none;
