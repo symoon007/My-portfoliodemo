@@ -68,11 +68,14 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-.section-about {
+.section-about, .my-skills{
   margin-top: 125px;
   padding: 130px 155px;
   background: #fff8f3;
   border-radius: 10px;
+}
+.my-skills{
+    background: none;
 }
 .section-title {
   margin-bottom: 30px;
@@ -93,10 +96,31 @@ main {
 }
 .info-title {
     color: #757575;
-    font-weight: 600;
+    font-weight: 500;
 }
 .info-description {
     font-weight: 600;
+}
+.skills-details {
+    display: flex;
+    gap: 24px;
+}
+.skills-info {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skills-info:hover {
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.2);
+}
+.skill-title {
+    font-weight: 700;
+    margin-top: 30px;
+}
+.skill-desc {
+    margin-top: 20px;
+    text-align: justify;
 }
 /* section ul {
     list-style: none;
