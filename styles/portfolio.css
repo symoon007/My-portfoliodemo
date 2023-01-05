@@ -68,8 +68,11 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+section {
+    margin-top: 130px;
+}
 .section-about, .my-skills{
-  margin-top: 125px;
+  
   padding: 130px 155px;
   background: #fff8f3;
   border-radius: 10px;
@@ -121,6 +124,37 @@ main {
 .skill-desc {
     margin-top: 20px;
     text-align: justify;
+}
+/* resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+    
+}
+.resume-items {
+  margin-bottom: 30px;
+
+}
+.rs-title {
+    color: #474747;
+}
+.resume-title {
+    margin-bottom: 30px;
+    color: #474747;
+  
+}
+.rs-sub-title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+.resume-description {
+      color: #757575;
+      
+}
+.resume-dw-btn {
+    margin-top: 50px;
+    text-align: center;
 }
 /* section ul {
     list-style: none;
